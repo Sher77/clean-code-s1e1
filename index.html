@@ -5,7 +5,7 @@
     <link href="https://fonts.googleapis.com/css?family=lato:300,400,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
-  <body>
+  <body class="page">
     <header class="header">
       <img src="./eisenhower-matrix.jpg" alt="The Eisenhower matrix">
       <h1>
@@ -14,44 +14,44 @@
     </header>
     <main class="main">
       <section id="main__top">
-        <h3>add item</h3>
+        <h3 class="main__heading heading">add item</h3>
         <div class="input-wrapper">
-          <input id="new-task" class="input-wrapper__task" type="text">
-          <button>add</button>
+          <input class="input" id="new-task" class="input-wrapper__task" type="text">
+          <button class="btn">add</button>
         </div>
       </section>
       <section class="todo">
-        <h3>todo</h3>
-        <ul id="incompletetasks">
-          <li>
-            <input type="checkbox">
+        <h3 class="heading">todo</h3>
+        <ul class="list" id="incompletetasks">
+          <li class="item">
+            <input class="input" type="checkbox">
             <label class="task">pay bills</label>
-            <input type="text" class="task">
+            <input class="input" type="text" class="task">
             <button class="edit">edit</button>
-            <button class="delete">
+            <button class="btn delete">
               <img src="./remove.svg" alt="Delete task">
             </button>
           </li>
-          <li class="editmode">
-            <input type="checkbox">
+          <li class="item editmode">
+            <input class="input" type="checkbox">
             <label class="task">go shopping</label>
-            <input type="text" value="go shopping" class="task">
+            <input class="input" type="text" value="go shopping" class="task">
             <button class="edit">save</button>
-            <button class="delete">
+            <button class="btn delete">
               <img src="./remove.svg" alt="Delete task">
             </button>
           </li>
         </ul>
       </section>
       <section class="completed">
-        <h3>completed</h3>
-        <ul id="completed-tasks">
-          <li>
-            <input type="checkbox" checked>
+        <h3 class="heading">completed</h3>
+        <ul class="list" id="completed-tasks">
+          <li class="item">
+            <input class="input" type="checkbox" checked>
             <label class="task">see the doctor</label>
-            <input type="text" class="task">
+            <input class="input" type="text" class="task">
             <button class="edit">edit</button>
-            <button class="delete">
+            <button class="btn delete">
               <img src="./remove.svg" alt="Delete task">
             </button>
           </li>
