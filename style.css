@@ -126,7 +126,7 @@
     margin: 0 10px;
 }
 
-.item > .label {
+.item > .task {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
@@ -163,6 +163,6 @@
     width: 224px;
 }
 
-.list .item.editMode .label {
+.list .item.editMode .task {
     display: none;
 }
