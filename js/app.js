@@ -26,7 +26,7 @@ const createNewTaskElement = function (taskString) {
   const deleteButton = document.createElement("button");
   deleteButton.className = "btn delete";
   const deleteButtonImg = document.createElement("img");
-  deleteButtonImg.src = "./remove.svg";
+  deleteButtonImg.src = "assets/remove.svg";
   deleteButton.appendChild(deleteButtonImg);
 
   listItem.appendChild(checkBox);
